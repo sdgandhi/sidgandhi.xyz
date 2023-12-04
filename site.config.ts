@@ -2,33 +2,33 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '7167d2cf133a4875b7e23caf545ee402',
+  rootNotionPageId: '340316eee4da42b8879a5bec5d817a34',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'wr8 Demo',
-  domain: 'demo.wr8.in',
-  author: 'Mighil',
-  seotitle: 'Demo Site Created with wr8',
+  name: 'Sid Gandhi',
+  domain: 'sidgandhi.xyz',
+  author: 'Sid Gandhi',
+  seotitle: 'Sid Gandhi\'s Website',
 
   // open graph metadata (optional)
-  description: 'This is a demo website created with wr8.',
+  description: 'Sid Gandhi\'s Website',
 
   // social usernames (optional)
-  twitter: 'jotzilla',
-  github: 'verfasor',
-  linkedin: 'mighil',
+  twitter: 'sidgandhi_xyz',
+  github: 'sdgandhi',
+  linkedin: 'https://linkedin.com/in/sg2020',
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
-  defaultPageIcon: 'https://wr8.in/page-icon.png',
-  defaultPageCover: 'https://wr8.in/page-cover.jpg',
-  defaultPageCoverPosition: 0.5,
+  // defaultPageIcon: 'https://wr8.in/page-icon.png',
+  // defaultPageCover: 'https://wr8.in/page-cover.jpg',
+  // defaultPageCoverPosition: 0.5,
 
   // whether or not to enable support for LQIP preview images (optional)
   isPreviewImageSupportEnabled: true,
@@ -54,15 +54,15 @@ export default siteConfig({
   navigationLinks: [   
     {
       title: 'Blog',
-      pageId: '588031c1e65d4dfa9d58e2492c9c1b7e'
+      pageId: '82b74b0c454645a7a856ecf635a2ce67'
     },    
     {
       title: 'About',
-      pageId: 'cf2ae3c4839e4e09a1b4a33cc600c409'
+      pageId: '4cb2fb8a82914b21ae9a54cd2a190109'
     },
     {
       title: 'Contact',
-      pageId: '5f7e562fef814299b10c68c52e920c9a'
+      pageId: 'f2b91fc02dbb42449c513aa98cae1659'
     }
   ]
 })
