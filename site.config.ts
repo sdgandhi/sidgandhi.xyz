@@ -20,7 +20,7 @@ export default siteConfig({
   // social usernames (optional)
   twitter: 'sidgandhi_xyz',
   github: 'sdgandhi',
-  linkedin: 'https://linkedin.com/in/sg2020',
+  linkedin: 'sg2020',
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
